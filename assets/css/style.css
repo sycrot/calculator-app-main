@@ -1,0 +1,111 @@
+* {box-sizing: border-box; margin: 0; padding: 0; font-family: 'Spartan', sans-serif;}
+
+body {
+    width: 100%;
+    background-color: hsl(222, 26%, 31%);
+}
+
+header {
+    width: 100%;
+    padding: 4vmax;
+    display: flex;
+}
+.title {
+    color: #fff;
+    font-size: 6vmax;
+    width: 50%;
+}
+.themes {
+    width: 50%;
+}
+.themes p {
+    color: #fff;
+    font-size: 2vmax;
+}
+.themes table {
+    float: right;
+}
+.themes table th {
+    text-align: center;
+    width: 3vmax;
+    color: #fff;
+    font-size: 2vmax;
+}
+.themes table tr {
+    width: 100%;
+}
+.theme_ {
+    margin-right: 3vmax;
+}
+button {
+    cursor: pointer;
+}
+.buttons {
+    height: 3.5vmax;
+    width: 100%;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 5vmax;
+    text-align: center;
+}
+.buttons .btn_theme {
+    width: 2.2vmax;
+    height: 2.2vmax;
+    background: hsl(6, 63%, 50%);
+    border: none;
+    border-radius: 50%;
+    margin-top: calc(50% - 4.2vmax);
+}
+
+.calculator {
+    width: 100%;
+    padding: 0 4vmax;
+}
+
+.calculator__display {
+    width: 100%;
+    background-color: hsl(224, 36%, 15%);
+    text-align: right;
+    padding: 3vmax 2vmax;
+    border-radius: 1.5vmax;
+    color: #fff;
+}
+
+.calculator__keys {
+    width: 100%;
+}
+.calculator__keys table {
+    width: 100%;
+    background-color: hsl(223, 31%, 20%);
+    margin: 2vmax 0;
+    padding: 2vmax;
+    border-radius: 1.5vmax;
+}
+.calculator__keys table tr td{
+    width: 20%;
+}
+.keys__standard {
+    width: 100%;
+    height: 10vmax;
+    font-size: 3vmax;
+    border: none;
+    border-bottom: 4px solid hsl(224, 28%, 35%);
+    background-color: hsl(225, 21%, 49%);
+    border-radius: 1vmax;
+    color: #fff;
+}
+.keys__standard:active {
+    border-bottom: none;
+}
+.keys__number {
+    border-bottom: 4px solid hsl(28, 16%, 65%);
+    background-color: hsl(30, 25%, 89%);
+    color:hsl(221, 14%, 31%);
+}
+.keys__number:active {
+    border-bottom: none;
+}
+.keys__equal {
+    border-bottom: 4px solid hsl(6, 70%, 34%);
+    background-color: hsl(6, 63%, 50%);
+    color:#fff;
+}
