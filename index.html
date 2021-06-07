@@ -19,74 +19,77 @@
 </head>
 <body>
 
-  <header>
-    <div class="title">
-      calc
+  <div class="calculator_container">
+    <header>
+      <div class="title">
+        calc
+      </div>
+      <div class="themes">
+        <table>
+          <tr>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <td><p class="theme_">THEME</p></td>
+            <td colspan="4">
+              <div class="buttons">
+                <button class="btn_theme"></button>
+                <button class="btn_theme"></button>
+                <button class="btn_theme"></button>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </header>
+  
+    <div class="calculator">
+      <div class="calculator__display">
+        <h1>339,834</h1>
+      </div>
+  
+      <div class="calculator__keys">
+        <table cellspacing="10">
+          <tr>
+            <td><button class="keys__number keys__standard">7</button></td>
+            <td><button class="keys__number keys__standard">8</button></td>
+            <td><button class="keys__number keys__standard">9</button></td>
+            <td><button class="keys__standard">DEL</button></td>
+          </tr>
+          <tr>
+            <td><button class="keys__number keys__standard">4</button></td>
+            <td><button class="keys__number keys__standard">5</button></td>
+            <td><button class="keys__number keys__standard">6</button></td>
+            <td><button class="keys__number keys__standard">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="keys__number keys__standard">1</button></td>
+            <td><button class="keys__number keys__standard">2</button></td>
+            <td><button class="keys__number keys__standard">3</button></td>
+            <td><button class="keys__number keys__standard">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="keys__number keys__standard">.</button></td>
+            <td><button class="keys__number keys__standard">0</button></td>
+            <td><button class="keys__number keys__standard">/</button></td>
+            <td><button class="keys__number keys__standard">x</button></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button class="keys__standard">RESET</button></td>
+            <td colspan="2"><button class="keys__equal keys__standard">=</button></td>
+          </tr>
+        </table>
+      </div>
     </div>
-    <div class="themes">
-      <table>
-        <tr>
-          <th></th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-        </tr>
-        <tr>
-          <td><p class="theme_">THEME</p></td>
-          <td colspan="3">
-            <div class="buttons">
-              <button class="btn_theme"></button>
-              <button class="btn_theme"></button>
-              <button class="btn_theme"></button>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </header>
-
-  <div class="calculator">
-    <div class="calculator__display">
-      <h1>339,834</h1>
-    </div>
-
-    <div class="calculator__keys">
-      <table cellspacing="10">
-        <tr>
-          <td><button class="keys__number keys__standard">7</button></td>
-          <td><button class="keys__number keys__standard">8</button></td>
-          <td><button class="keys__number keys__standard">9</button></td>
-          <td><button class="keys__standard">DEL</button></td>
-        </tr>
-        <tr>
-          <td><button class="keys__number keys__standard">4</button></td>
-          <td><button class="keys__number keys__standard">5</button></td>
-          <td><button class="keys__number keys__standard">6</button></td>
-          <td><button class="keys__number keys__standard">+</button></td>
-        </tr>
-        <tr>
-          <td><button class="keys__number keys__standard">1</button></td>
-          <td><button class="keys__number keys__standard">2</button></td>
-          <td><button class="keys__number keys__standard">3</button></td>
-          <td><button class="keys__number keys__standard">-</button></td>
-        </tr>
-        <tr>
-          <td><button class="keys__number keys__standard">.</button></td>
-          <td><button class="keys__number keys__standard">0</button></td>
-          <td><button class="keys__number keys__standard">/</button></td>
-          <td><button class="keys__number keys__standard">x</button></td>
-        </tr>
-        <tr>
-          <td colspan="2"><button class="keys__standard">RESET</button></td>
-          <td colspan="2"><button class="keys__equal keys__standard">=</button></td>
-        </tr>
-      </table>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Thiago Farias</a>.
     </div>
   </div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Thiago Farias</a>.
-  </div>
 </body>
 </html>
