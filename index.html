@@ -8,7 +8,7 @@
   
   <title>Frontend Mentor | Calculator app</title>
 
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -36,9 +36,9 @@
             <td><p class="theme_">THEME</p></td>
             <td colspan="4">
               <div class="buttons">
-                <button class="btn_theme"></button>
-                <button class="btn_theme"></button>
-                <button class="btn_theme"></button>
+                <button class="btn_theme" value="1"></button>
+                <button class="btn_theme" value="2"></button>
+                <button class="btn_theme" value="3"></button>
               </div>
             </td>
           </tr>
@@ -52,7 +52,7 @@
       </div>
   
       <div class="calculator__keys">
-        <table cellspacing="10">
+        <table cellspacing="10" class="calculator__keys_table">
           <tr>
             <td><button class="keys__number keys__standard">7</button></td>
             <td><button class="keys__number keys__standard">8</button></td>
@@ -91,5 +91,6 @@
     </div>
   </div>
   
+  <script src="assets/js/themes.js"></script>
 </body>
 </html>

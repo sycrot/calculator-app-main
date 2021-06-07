@@ -6,14 +6,14 @@ html {
 
 body {
     width: 100%;
-    background-color: hsl(222, 26%, 31%);
+    background-color: hsl(0, 0%, 90%);
 }
 
 header {
     width: 100%;
     padding: 1.5em;
     display: flex;
-    color: #fff;
+    color: hsl(60, 10%, 19%);
 }
 .title {
     font-size: 36px;
@@ -44,14 +44,14 @@ button {
 .buttons {
     height: 24px;
     width: 100%;
-    background-color: hsl(223, 31%, 20%);
+    background-color: hsl(0, 5%, 81%);
     border-radius: 32px;
     text-align: center;
 }
 .buttons .btn_theme {
     width: 16px;
     height: 16px;
-    background: hsl(6, 63%, 50%);
+    background: hsl(25, 98%, 40%);
     border: none;
     border-radius: 50%;
     margin-top: calc(50% - 31px);
@@ -64,11 +64,11 @@ button {
 
 .calculator__display {
     width: 100%;
-    background-color: hsl(224, 36%, 15%);
+    background-color: hsl(0, 5%, 81%);
     text-align: right;
     padding: 1.5em 1.5em;
     border-radius: 0.5em;
-    color: #fff;
+    color: hsl(60, 10%, 19%);
 }
 
 .calculator__keys {
@@ -76,7 +76,7 @@ button {
 }
 .calculator__keys table {
     width: 100%;
-    background-color: hsl(223, 31%, 20%);
+    background-color: hsl(0, 5%, 81%);
     margin: 1em 0;
     padding: 1em;
     border-radius: 0.5em;
@@ -89,8 +89,8 @@ button {
     height: 2.5em;
     font-size: 1.5em;
     border: none;
-    border-bottom: 4px solid hsl(224, 28%, 35%);
-    background-color: hsl(225, 21%, 49%);
+    border-bottom: 4px solid hsl(185, 58%, 25%);
+    background-color: hsl(185, 42%, 37%);
     border-radius: 0.2em;
     color: #fff;
 }
@@ -98,13 +98,13 @@ button {
     border: none;
 }
 .keys__number {
-    border-bottom: 4px solid hsl(28, 16%, 65%);
-    background-color: hsl(30, 25%, 89%);
-    color:hsl(221, 14%, 31%);
+    border-bottom: 4px solid hsl(35, 11%, 61%);
+    background-color: hsl(45, 7%, 89%);
+    color:hsl(60, 10%, 19%);
 }
 .keys__equal {
-    border-bottom: 4px solid hsl(6, 70%, 34%);
-    background-color: hsl(6, 63%, 50%);
+    border-bottom: 4px solid hsl(25, 99%, 27%);
+    background-color: hsl(25, 98%, 40%);
     color:#fff;
 }
 
