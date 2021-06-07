@@ -42,12 +42,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let url1 = 'assets/css/style.css'
     let url2 = 'assets/css/style2.css'
+    let url3 = 'assets/css/style3.css'
     let button = document.querySelectorAll('.btn_theme')
 
     button.forEach(e => {
         e.addEventListener('click', () => {
             if (e.getAttribute('value') == 1) criarTag(url1)
             if (e.getAttribute('value') == 2) criarTag(url2)
+            if (e.getAttribute('value') == 3) criarTag(url3)
         })
     })
 

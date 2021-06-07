@@ -13,7 +13,7 @@ header {
     width: 100%;
     padding: 1.5em;
     display: flex;
-    color: hsl(60, 10%, 19%);
+    color: hsl(52, 100%, 62%);
 }
 .title {
     font-size: 36px;
@@ -44,14 +44,14 @@ button {
 .buttons {
     height: 24px;
     width: 100%;
-    background-color: hsl(0, 5%, 81%);
+    background-color: hsl(268, 71%, 12%);
     border-radius: 32px;
     text-align: center;
 }
 .buttons .btn_theme {
     width: 16px;
     height: 16px;
-    background: hsl(25, 98%, 40%);
+    background: hsl(176, 100%, 44%);
     border: none;
     border-radius: 50%;
     margin-top: calc(50% - 31px);
@@ -64,11 +64,11 @@ button {
 
 .calculator__display {
     width: 100%;
-    background-color: hsl(0, 5%, 81%);
+    background-color: hsl(268, 71%, 12%);
     text-align: right;
     padding: 1.5em 1.5em;
     border-radius: 0.5em;
-    color: hsl(60, 10%, 19%);
+    color: hsl(52, 100%, 62%);
 }
 
 .calculator__keys {
@@ -76,7 +76,7 @@ button {
 }
 .calculator__keys table {
     width: 100%;
-    background-color: hsl(0, 5%, 81%);
+    background-color: hsl(268, 71%, 12%);
     margin: 1em 0;
     padding: 1em;
     border-radius: 0.5em;
@@ -89,8 +89,8 @@ button {
     height: 2.5em;
     font-size: 1.5em;
     border: none;
-    border-bottom: 4px solid hsl(185, 58%, 25%);
-    background-color: hsl(185, 42%, 37%);
+    border-bottom: 4px solid hsl(285, 91%, 52%);
+    background-color: hsl(281, 89%, 26%);
     border-radius: 0.2em;
     color: #fff;
 }
@@ -98,14 +98,14 @@ button {
     border: none;
 }
 .keys__number {
-    border-bottom: 4px solid hsl(35, 11%, 61%);
-    background-color: hsl(45, 7%, 89%);
-    color:hsl(60, 10%, 19%);
+    border-bottom: 4px solid hsl(290, 70%, 36%);
+    background-color: hsl(268, 47%, 21%);
+    color:hsl(52, 100%, 62%);
 }
 .keys__equal {
-    border-bottom: 4px solid hsl(25, 99%, 27%);
-    background-color: hsl(25, 98%, 40%);
-    color:#fff;
+    border-bottom: 4px solid hsl(177, 92%, 70%);
+    background-color: hsl(176, 100%, 44%);
+    color:hsl(198, 20%, 13%);
 }
 
 @media (min-width: 1440px) {
