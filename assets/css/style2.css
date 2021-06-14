@@ -57,6 +57,18 @@ button {
     margin-top: calc(50% - 31px);
 }
 
+.buttons .btn_theme:nth-child(2) {
+    opacity: 1;
+}
+
+.buttons .btn_theme:nth-child(1), .buttons .btn_theme:nth-child(3) {
+    opacity: 0;
+}
+
+.btn_theme_th {
+    cursor: pointer;
+}
+
 .calculator {
     width: 100%;
     padding: 0 1.5em;
